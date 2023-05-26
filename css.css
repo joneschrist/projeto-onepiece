@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@font-face {
+font-family: 'titulo';
+src:url('.')
+
+}
+:root {
+    --cor0: #E39505;
+    --cor1: #FA8F12;
+    --cor2: #E35B05;
+
+}
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+body {
+    background-image:linear-gradient( #E35B05, #FA8F12, #E39505);
+}
+header{
+    background-color: rgb(43, 173, 233);
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.307);
+    text-align: center;
+    padding: 5px;
+    max-width: 2000px;
+    min-width: 300px;
+    border-radius: 3px;
+  
+}
+header  > h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(13, 255, 0)
+}
+
+main  h1 {
+    color:rgb(51, 255, 0)
+}
+nav {
+background-color: yellow;
+box-shadow: 1px 2px rgba(0, 0, 0, 0.349);
+border-radius: 3px 4px;
+padding: 3px;
+margin: 5px ;
+
+
+}
+main {
+    background-color: rgb(25, 182, 244);
+    padding: 3px;
+    margin: 10px;
+   max-width: 800px;
+   min-width: 400px;
+  height: 600px;
+margin: auto;
+      box-shadow: 2px 3px rgba(0, 0, 0, 0.367);
+
+}
+article{
+    background-color: rgba(199, 239, 245, 0.834);
+    margin-top: 10px;
+  
+}
+aside{
+    background-color: rgb(246, 86, 6);
+}
+footer {
+    background-color: rgb(194, 8, 8);
+   box-shadow: 1px 3px rgba(0, 0, 0, 0.249);
+   padding: 40px;
+ margin-top: 20px;
+ border-radius: 3px;
+
+}
